@@ -110,7 +110,7 @@ This data is also available in the accompanying CSV file.
 Here’s the markdown content using GitHub's ```math formatting:
 
 
-![Symmetry Analysis Plot](symmetry_analysis.png)
+![Symmetry Analysis Plot](wave_exact_intersections_updated.png)
 
 ---
 
