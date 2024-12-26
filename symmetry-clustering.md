@@ -42,7 +42,7 @@ These analyses aim to uncover additional structural connections between the two 
 - The distribution of symmetry distances shows a similar spread and clustering behavior.
 
 #### Visualization
-![Symmetry Analysis Plot](sandbox:/mnt/data/empirical_evidence_2/symmetry_analysis.png)
+![Symmetry Analysis Plot](symmetry_analysis.png)
 
 ---
 
@@ -78,7 +78,7 @@ These analyses aim to uncover additional structural connections between the two 
   indicates strong clustering consistency.
 
 #### Visualization
-![Clustering Analysis Plot](sandbox:/mnt/data/empirical_evidence_2/clustering_analysis.png)
+![Clustering Analysis Plot](clustering_analysis.png)
 
 ---
 
