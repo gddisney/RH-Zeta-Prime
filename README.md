@@ -109,19 +109,19 @@ Our findings include:
 
 The research is structured into individual markdown files, each focusing on a specific empirical analysis:
 
-1. **[Evidence 1: Wave Intersections](./evidence_1_wave_intersections.md)**  
+1. **[Evidence 1: Wave Intersections](./intersect-prime-zeta.md)**  
    Analysis of points where waveforms derived from primes and zeta zeros intersect, suggesting alignment in their structures.
 
-2. **[Evidence 2: Symmetry and Clustering](./evidence_2_symmetry_clustering.md)**  
+2. **[Evidence 2: Symmetry and Clustering](./symmetry_clustering.md)**  
    Examination of symmetry in the distributions of primes and zeta zeros and clustering behavior in their gaps.
 
-3. **[Evidence 3: Fourier Analysis](./evidence_3_fourier_analysis.md)**  
+3. **[Evidence 3: Fourier Analysis](./fourier_analysis.md)**  
    Exploration of shared harmonic structures through Fourier Transform analysis of primes and zeta zeros.
 
-4. **[Evidence 4: Waveform Superposition](./evidence_4_waveform_superposition.md)**  
+4. **[Evidence 4: Waveform Superposition](./superposition.md)**  
    Visualization of interference patterns created by superimposing prime and zeta zero waveforms.
 
-5. **[Evidence 5: Statistical Gap Analysis](./evidence_5_statistical_gaps.md)**  
+5. **[Evidence 5: Statistical Gap Analysis](./gap.md)**  
    Statistical comparison of gaps between consecutive primes and zeta zeros, revealing overlapping trends.
 
 ### 4.2 Fourier Analysis Results
