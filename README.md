@@ -6,6 +6,8 @@ The **Riemann Hypothesis (RH)** is one of mathematics's most prominent unsolved 
 
 This work presents a novel analysis of the relationship between prime numbers and nontrivial zeta zeros using **trigonometric models** and **Fourier transforms**. We show that the prime numbers exhibit resonance patterns that align with the zeros of the zeta function, revealing symmetry in their distribution. This analysis, particularly the **Fourier transform and wavelength analysis**, provides strong evidence supporting the conjecture of RH.
 
+
+
 ## 2. Background and Motivation
 
 ### 2.1 The Riemann Zeta Function and RH
@@ -95,6 +97,33 @@ We calculate the resonance patterns for primes and compare them to the nontrivia
 
 These results show that for \( 1 \times 10^{-5} \), we start to observe prime numbers whose tangent values are extremely close to the corresponding nontrivial zeros of the zeta function, with the **tangent differences** reaching as low as \( 0.000000 \) for the prime 1151729627. This provides a strong indication of resonance at this tolerance level.
 
+Our findings include:
+- Intersection patterns between waveforms derived from primes and zeta zeros.
+- Statistical alignment in gaps between consecutive primes and zeta zeros.
+- Fourier domain analysis revealing shared harmonic structures.
+- Predictive modeling of new primes and zeta zeros based on observed patterns.
+
+## Contents
+
+### Empirical Evidence
+
+The research is structured into individual markdown files, each focusing on a specific empirical analysis:
+
+1. **[Evidence 1: Wave Intersections](./evidence_1_wave_intersections.md)**  
+   Analysis of points where waveforms derived from primes and zeta zeros intersect, suggesting alignment in their structures.
+
+2. **[Evidence 2: Symmetry and Clustering](./evidence_2_symmetry_clustering.md)**  
+   Examination of symmetry in the distributions of primes and zeta zeros and clustering behavior in their gaps.
+
+3. **[Evidence 3: Fourier Analysis](./evidence_3_fourier_analysis.md)**  
+   Exploration of shared harmonic structures through Fourier Transform analysis of primes and zeta zeros.
+
+4. **[Evidence 4: Waveform Superposition](./evidence_4_waveform_superposition.md)**  
+   Visualization of interference patterns created by superimposing prime and zeta zero waveforms.
+
+5. **[Evidence 5: Statistical Gap Analysis](./evidence_5_statistical_gaps.md)**  
+   Statistical comparison of gaps between consecutive primes and zeta zeros, revealing overlapping trends.
+
 ### 4.2 Fourier Analysis Results
 The Fourier transform of the prime distribution revealed an oscillatory pattern, with a clear **wavelength** matching the periodic structure of the zeta zeros. This **wavelength analysis** serves as **real proof** that primes exhibit a periodic relationship with the zeros of the zeta function, strongly supporting the conjecture that the primes are distributed according to the behavior of the zeta zeros.
 
@@ -104,8 +133,7 @@ This update includes your recent findings at \( 1 \times 10^{-5} \), highlightin
 
 These results show a close matching of the tangent values between primes and zeta zeros, with tangent differences on the order of \( 10^{-5} \).
 
-### 4.2 Fourier Analysis Results
-The Fourier transform of the prime distribution revealed an oscillatory pattern, with a clear **wavelength** matching the periodic structure of the zeta zeros. This **wavelength analysis** serves as **real proof** that primes exhibit a periodic relationship with the zeros of the zeta function, strongly supporting the conjecture that the primes are distributed according to the behavior of the zeta zeros.
+
 
 ## 5. Discussion
 
