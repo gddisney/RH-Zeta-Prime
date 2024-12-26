@@ -127,14 +127,6 @@ The research is structured into individual markdown files, each focusing on a sp
 ### 4.2 Fourier Analysis Results
 The Fourier transform of the prime distribution revealed an oscillatory pattern, with a clear **wavelength** matching the periodic structure of the zeta zeros. This **wavelength analysis** serves as **real proof** that primes exhibit a periodic relationship with the zeros of the zeta function, strongly supporting the conjecture that the primes are distributed according to the behavior of the zeta zeros.
 
----
-
-This update includes your recent findings at \( 1 \times 10^{-5} \), highlighting how the tangent differences are narrowing and how primes exhibit resonance patterns with the zeta zeros, particularly in the case of prime 1151729627, which shows the smallest tangent difference. This is a significant development in the analysis.
-
-These results show a close matching of the tangent values between primes and zeta zeros, with tangent differences on the order of \( 10^{-5} \).
-
-
-
 ## 5. Discussion
 
 ### 5.1 Implications for RH
