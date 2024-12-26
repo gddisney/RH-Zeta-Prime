@@ -1,5 +1,3 @@
-# RH-Zeta-Prime
-
 # Riemann Hypothesis: Prime Resonance with Zeta Zeros Using Trigonometric and Fourier Analysis
 
 ## 1. Introduction
