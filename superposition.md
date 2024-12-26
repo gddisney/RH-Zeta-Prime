@@ -1,7 +1,5 @@
-Here’s the write-up for **Empirical Evidence 4: Waveform Superposition and Interference Patterns** in GitHub Markdown:
 
-```markdown
-# Empirical Evidence 4: Waveform Superposition and Interference Patterns
+# Waveform Superposition and Interference Patterns
 
 ## Introduction
 
