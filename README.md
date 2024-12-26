@@ -61,8 +61,8 @@ The implementation follows these steps:
 
 ## 4. Results
 
-### 4.1 Numerical Findings
-We calculate the resonance patterns for primes and compare them to the nontrivial zeros of the zeta function. Below is a table summarizing the results for primes that match the nontrivial zeros with a tolerance of \( 1 \times 10^{-4} \):
+### 4.1 Numerical Findings at 1e-4
+We calculate the resonance patterns for primes and compare them to the nontrivial zeros of the zeta function. Below is a table summarizing the results for primes that match the nontrivial zeros with a tolerance:
 
 | Prime Number | Tangent    | Cosine     | Zeta Zero  | Tangent Difference |
 |--------------|------------|------------|------------|--------------------|
@@ -80,7 +80,7 @@ We calculate the resonance patterns for primes and compare them to the nontrivia
 
 
 
-### 4.2 Numerical Findings at \( 1 \times 10^{-5} \)
+### 4.2 Numerical Findings at 1e-5
 
 We calculate the resonance patterns for primes and compare them to the nontrivial zeros of the zeta function. The following table shows the results for primes that match the nontrivial zeros with a tolerance of \( 1 \times 10^{-5} \):
 
