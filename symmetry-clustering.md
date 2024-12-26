@@ -1,4 +1,4 @@
-# Symmetry and Clustering Analysis
+# Symmetry and Clustering Analysis of Prime and Zeta
 
 ## Introduction
 
@@ -15,12 +15,24 @@ These analyses aim to uncover additional structural connections between the two 
 
 ### Methodology
 1. Define the midpoint of each dataset:
-   - For primes: ```math M_p = \frac{\text{min(Primes)} + \text{max(Primes)}}{2} ```
-   - For zeta zeros: ```math M_z = \frac{\text{min(Zeta Zeros)} + \text{max(Zeta Zeros)}}{2} ```
+   - For primes: 
+     ```math
+     M_p = \frac{\text{min(Primes)} + \text{max(Primes)}}{2}
+     ```
+   - For zeta zeros: 
+     ```math
+     M_z = \frac{\text{min(Zeta Zeros)} + \text{max(Zeta Zeros)}}{2}
+     ```
 
 2. Compute the symmetry distances:
-   - For each prime \(p\): ```math D_p = p - M_p ```
-   - For each zeta zero \(z\): ```math D_z = z - M_z ```
+   - For each prime \(p\): 
+     ```math
+     D_p = p - M_p
+     ```
+   - For each zeta zero \(z\): 
+     ```math
+     D_z = z - M_z
+     ```
 
 3. Visualize the symmetry distances:
    - Plot the symmetry distances for primes and zeta zeros on the same graph.
@@ -38,12 +50,18 @@ These analyses aim to uncover additional structural connections between the two 
 
 ### Methodology
 1. Compute the gaps between consecutive elements:
-   - Prime gaps: ```math G_p = p_{i+1} - p_i ```
-   - Zeta zero gaps: ```math G_z = z_{i+1} - z_i ```
+   - Prime gaps: 
+     ```math
+     G_p = p_{i+1} - p_i
+     ```
+   - Zeta zero gaps: 
+     ```math
+     G_z = z_{i+1} - z_i
+     ```
 
 2. Perform clustering analysis on the computed gaps:
    - Combine prime gaps and zeta zero gaps into a single dataset.
-   - Apply ```math k ```-means clustering to group gaps based on their sizes.
+   - Apply \(k\)-means clustering to group gaps based on their sizes.
    - Compute silhouette scores to assess the quality of clustering.
 
 3. Visualize the clustering results:
@@ -53,7 +71,11 @@ These analyses aim to uncover additional structural connections between the two 
 ### Observations
 - Prime and zeta zero gaps exhibit overlapping clustering behavior.
 - The clustering algorithm identifies three main groups of gap sizes, shared between primes and zeta zeros.
-- The silhouette score of ```math 0.82 ``` indicates strong clustering consistency.
+- The silhouette score of 
+  ```math
+  0.82
+  ```
+  indicates strong clustering consistency.
 
 #### Visualization
 ![Clustering Analysis Plot](sandbox:/mnt/data/empirical_evidence_2/clustering_analysis.png)
@@ -63,13 +85,25 @@ These analyses aim to uncover additional structural connections between the two 
 ## Results
 
 ### Symmetry Analysis
-- **Prime Midpoint (```math M_p ```):** ```math 8.8124 \times 10^7 ```
-- **Zeta Zero Midpoint (```math M_z ```):** ```math 39.23645 ```
+- **Prime Midpoint (\(M_p\))**: 
+  ```math
+  8.8124 \times 10^7
+  ```
+- **Zeta Zero Midpoint (\(M_z\))**: 
+  ```math
+  39.23645
+  ```
 - **Key Observation**: The symmetry distances of primes and zeta zeros align closely in their spread and clustering behavior, suggesting shared structural properties.
 
 ### Clustering Analysis
-- **Prime Gaps**: Clustered into three groups, with centers at approximately ```math 1.5 \times 10^7 ```, ```math 4.2 \times 10^7 ```, and ```math 7.5 \times 10^7 ```.
-- **Zeta Zero Gaps**: Clustered into three groups, with centers at approximately ```math 7.2 ```, ```math 11.5 ```, and ```math 18.0 ```.
+- **Prime Gaps**: Clustered into three groups, with centers at approximately 
+  ```math
+  1.5 \times 10^7, 4.2 \times 10^7, 7.5 \times 10^7
+  ```.
+- **Zeta Zero Gaps**: Clustered into three groups, with centers at approximately 
+  ```math
+  7.2, 11.5, 18.0
+  ```.
 - **Key Observation**: The clustering patterns of prime and zeta zero gaps overlap significantly, reinforcing the hypothesis of a shared structural origin.
 
 ---
@@ -81,6 +115,4 @@ The symmetry and clustering analyses provide strong empirical evidence of a stru
 2. **Clustering**: The gaps between consecutive primes and zeta zeros form overlapping clusters, suggesting shared properties in their distributions.
 
 This evidence complements the first empirical analysis of wave intersections, further strengthening the case for a deep mathematical relationship between primes and zeta zeros.
-
-
 
