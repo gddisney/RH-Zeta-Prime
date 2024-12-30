@@ -102,17 +102,21 @@ This research explores the hypothesis that the distribution of primes exhibits o
 
 2. **Sequence Construction:**
    - Construct a sequence *Sγ</sub>* where the $$\(n\)$$-th term is defined as:
+     
      ```math
      R(p_n, \gamma) = \cos(2\pi p_n \gamma) + \sin(2\pi p_n \gamma)
      ```
+     
      Here, $$\(p_n\)$$ is the $$\(n\)$$-th prime, and $$\(\gamma\)$$ is a candidate for the imaginary part of a zeta zero.
    - The function $$\(R(p_n, \gamma)\)$$$ generates oscillations sensitive to the relationship between the prime $$\(p_n\)$$ and the candidate zero $$\(\gamma\)$$. If $$\(\gamma\)$$ is related to the distribution of primes, these oscillations are expected to exhibit constructive interference at certain frequencies in the DFT.
 
 3. **Fourier Transform Analysis:**
    - Compute the Discrete Fourier Transform (DFT) of the sequence *S<sub>γ</sub>*:
+     
      ```math
      F(k) = \sum_{n=1}^N R(p_n, \gamma) e^{-2\pi i k n / N}
      ```
+   
    - Normalize the DFT output to have unit energy for consistent comparison.
    - Here, $$\(k\)$$ ranges from 0 to $$\(N-1\)$$, and the relationship between $$\(k/N\)$$ and $$\(\gamma\)$$ captures the resonance pattern.
 
