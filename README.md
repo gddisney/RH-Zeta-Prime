@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-The **Riemann Hypothesis (RH)** is one of mathematics's most prominent unsolved problems. It asserts that all nontrivial zeros of the Riemann zeta function lie on the critical line ```math \( \Re(s) = \frac{1}{2} \)```. The distribution of prime numbers, deeply intertwined with the behavior of the zeta function, has led to significant interest in understanding how primes relate to the zeros of the zeta function.
+The **Riemann Hypothesis (RH)** is one of mathematics's most prominent unsolved problems. It asserts that all nontrivial zeros of the Riemann zeta function lie on the critical line $$\( \Re(s) = \frac{1}{2} \). The distribution of prime numbers, deeply intertwined with the behavior of the zeta function, has led to significant interest in understanding how primes relate to the zeros of the zeta function.
 
 This work presents a novel analysis of the relationship between prime numbers and nontrivial zeta zeros using **trigonometric models** and **Fourier transforms**. We show that the prime numbers exhibit resonance patterns that align with the zeros of the zeta function, revealing symmetry in their distribution. This analysis, particularly the **Fourier transform and wavelength analysis**, provides strong evidence supporting the conjecture of RH.
 
