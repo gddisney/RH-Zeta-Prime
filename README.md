@@ -1,3 +1,4 @@
+
 # Riemann Hypothesis: Prime Resonance with Zeta Zeros Using Trigonometric and Fourier Analysis
 
 ## 1. Introduction
@@ -19,7 +20,9 @@ The Riemann zeta function, defined for complex numbers $$\( s = \sigma + it \)$$
 \zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s} \quad \text{for} \quad \Re(s) > 1.
 ```
 The nontrivial zeros of the zeta function, $$\( \rho \)$$, are those for which
-$$\zeta(\rho) = 0$$,
+```math
+\zeta(\rho) = 0,
+```
 and RH conjectures that all such zeros lie on the **critical line**
 ```math
 \Re(s) = \frac{1}{2}.
@@ -54,7 +57,9 @@ After identifying the resonance patterns between primes and zeta zeros, we apply
 ### 3.4 Zeta Zeros
 
 We use a list of known nontrivial zeros of the Riemann zeta function, such as:
-$$(\14.134725, \quad 21.022040, \quad 25.010858, \quad 30.424876, \quad 32.935062, \dots\)$$
+```math
+14.134725, \quad 21.022040, \quad 25.010858, \quad 30.424876, \quad 32.935062, \dots
+```
 These zeros serve as the target points for matching with the resonance of the prime numbers.
 
 ### 3.5 Computational Tools
@@ -116,6 +121,27 @@ Our findings include:
 ### 4.3 Fourier Analysis Results
 
 The Fourier transform of the prime distribution revealed an oscillatory pattern, with a clear **wavelength** matching the periodic structure of the zeta zeros. This **wavelength analysis** serves as **real proof** that primes exhibit a periodic relationship with the zeros of the zeta function, strongly supporting the conjecture that the primes are distributed according to the behavior of the zeta zeros.
+
+## Contents
+
+### Empirical Evidence
+
+The research is structured into individual markdown files, each focusing on a specific empirical analysis:
+
+1. **[Evidence 1: Wave Intersections](./intersect-prime-zeta.md)**  
+   Analysis of points where waveforms derived from primes and zeta zeros intersect, suggesting alignment in their structures.
+
+2. **[Evidence 2: Symmetry and Clustering](./symmetry_clustering.md)**  
+   Examination of symmetry in the distributions of primes and zeta zeros and clustering behavior in their gaps.
+
+3. **[Evidence 3: Fourier Analysis](./fourier_analysis.md)**  
+   Exploration of shared harmonic structures through Fourier Transform analysis of primes and zeta zeros.
+
+4. **[Evidence 4: Waveform Superposition](./superposition.md)**  
+   Visualization of interference patterns created by superimposing prime and zeta zero waveforms.
+
+5. **[Evidence 5: Statistical Gap Analysis](./gap.md)**  
+   Statistical comparison of gaps between consecutive primes and zeta zeros, revealing overlapping trends.
 
 ## 5. Discussion
 
