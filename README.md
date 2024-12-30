@@ -106,7 +106,7 @@ This research explores the hypothesis that the distribution of primes exhibits o
      R(p_n, \gamma) = \cos(2\pi p_n \gamma) + \sin(2\pi p_n \gamma)
      ```
      Here, $$\(p_n\)$$ is the $$\(n\)$$-th prime, and $$\(\gamma\)$$ is a candidate for the imaginary part of a zeta zero.
-   - The function $$\(R(p_n, \gamma)\)$$$ generates oscillations sensitive to the relationship between the prime \(p_n\) and the candidate zero \(\gamma\). If \(\gamma\) is related to the distribution of primes, these oscillations are expected to exhibit constructive interference at certain frequencies in the DFT.
+   - The function $$\(R(p_n, \gamma)\)$$$ generates oscillations sensitive to the relationship between the prime $$\(p_n\)$$ and the candidate zero $$\(\gamma\)$$. If $$\(\gamma\)$$ is related to the distribution of primes, these oscillations are expected to exhibit constructive interference at certain frequencies in the DFT.
 
 3. **Fourier Transform Analysis:**
    - Compute the Discrete Fourier Transform (DFT) of the sequence *S<sub>γ</sub>*:
