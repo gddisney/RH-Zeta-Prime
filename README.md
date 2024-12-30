@@ -17,7 +17,7 @@ The Riemann zeta function, defined for complex numbers \( s = \sigma + it \), is
 \zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s} \quad \text{for} \quad \Re(s) > 1.
 ```
 
-The nontrivial zeros of the zeta function, \( \rho \), are those for which \( \zeta(\rho) = 0 \), and RH conjectures that all such zeros lie on the **critical line** \( \Re(s) = \frac{1}{2} \).
+The nontrivial zeros of the zeta function, ```math\( \rho \)```, are those for which ```math \( \zeta(\rho) = 0 \)```, and RH conjectures that all such zeros lie on the **critical line** ```math\( \Re(s) = \frac{1}{2} \)```.
 
 ### 2.2 Prime Distribution and Zeta Zeros
 The distribution of primes is known to be irregular yet follows certain predictable patterns, as encapsulated by the prime number theorem. The explicit formulas in analytic number theory establish a link between the distribution of primes and the nontrivial zeros of the zeta function.
@@ -166,7 +166,7 @@ Let us represent the prime distribution \( p(x) \) and the nontrivial zeros of t
 p(x) = \sum_{n} a_n \cos(k_n x + \phi_n)
 ```
 
-where \( a_n \), \( k_n \), and \( \phi_n \) are the Fourier coefficients representing the amplitude, wave number, and phase for each oscillatory component of the prime distribution.
+where ```math\( a_n \), \( k_n \), and \( \phi_n \)``` are the Fourier coefficients representing the amplitude, wave number, and phase for each oscillatory component of the prime distribution.
 
 - **Zeta zero waveform**: Similarly, we can model the nontrivial zeros of the zeta function with a Fourier series:
 
@@ -177,7 +177,7 @@ where \( a_n \), \( k_n \), and \( \phi_n \) are the Fourier coefficients repres
 where \( b_m \), \( k_m \), and \( \psi_m \) represent the corresponding Fourier coefficients for the zeta zeros.
 
 ### 4. **Formulating the Interaction (Interference) Wave**:
-The interaction between the two waveforms can be represented as the sum of the two series. Since the primes and the zeta zeros are periodic and exhibit harmonic behavior, their interference pattern should be a sum of the two series. Thus, the interaction wave \( I(x) \) is:
+The interaction between the two waveforms can be represented as the sum of the two series. Since the primes and the zeta zeros are periodic and exhibit harmonic behavior, their interference pattern should be a sum of the two series. Thus, the interaction wave ```math \( I(x) \)``` is:
 
 ```math
 I(x) = \sum_{n} a_n \cos(k_n x + \phi_n) + \sum_{m} b_m \cos(k_m x + \psi_m)
